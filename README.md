@@ -9,18 +9,6 @@ Transhumanism from desktop to your brain.
 npm install alexov
 ```
 
-#### Usage
-```js
-// Initialize with default seed
-let srvcttn = new Srvcttn('default');
+#### Why
 
-srvcttn
-  .login('user', 'password')
-  .then((state) => {
-    srvcttn.job('000000')
-      .addTag('awful')
-      .then(() => {
-        srvcttn.kill();
-      })
-  });
-```
+Built for Angelhack Global Hackathon Series: Atlanta
